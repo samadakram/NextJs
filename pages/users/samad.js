@@ -1,8 +1,8 @@
 
-function samad() {
+function Samad() {
   return (
-    <div>samad</div>
+    <div>Samad</div>
   )
 }
 
-export default samad;
+export default Samad;
