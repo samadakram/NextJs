@@ -7,6 +7,7 @@ import { useState } from "react";
 import Button from "@/components/button/Button"
 import Greet from "@/components/greet/Greet"
 import List from "@/components/list/List"
+import Link from "next/link";
 
 export default function Home() {
 
@@ -25,10 +26,13 @@ export default function Home() {
 
   return (
     <>
-      <h2>Next JS APP</h2>
+      <h1>Home Page</h1>
+      <h2>Our Customers</h2>
+      <Link href="/customers">Go to Customers</Link>
+      {/* <h2>Next JS APP</h2>
       <Greet />
       <List arr={arr} />
-      <Button click={clickHandler}>Add</Button>
+      <Button click={clickHandler}>Add</Button> */}
     </>
   )
 }
