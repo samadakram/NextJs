@@ -1,0 +1,36 @@
+{
+    "customers": [
+        {
+            "Name": "Samad",
+            "Location": "Hyderabad",
+            "Surname": "Baloch",
+            "Route": "samad",
+            "projects": [
+                "Project A",
+                "Project B"
+            ]
+        },
+        {
+            "Name": "Ishaq",
+            "Location": "Karachi",
+            "Surname": "Bhojani",
+            "Route": "ishaq",
+            "projects": [
+                "Project X",
+                "Project Y",
+                "Project Z"
+            ]
+        },
+        {
+            "Name": "Jabbu",
+            "Location": "Paretabad",
+            "Surname": "P",
+            "Route": "jabbu",
+            "projects": [
+                "Project U",
+                "Project V",
+                "Project W"
+            ]
+        }
+    ]
+}
