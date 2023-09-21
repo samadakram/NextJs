@@ -40,15 +40,6 @@ function Projects() {
                         </li>
                     })
                 }
-
-
-
-                {/* <li>
-                    <Link href={`/customers/${customerId}/projects/trackingApp`}>Tracking App</Link>
-                </li>
-                <li>
-                    <Link href={`/customers/${customerId}/projects/portfolio`}>Portfolio</Link>
-                </li> */}
             </ul>
         </div>
     )
