@@ -9,7 +9,7 @@ import Greet from "@/components/greet/Greet"
 import List from "@/components/list/List"
 import Link from "next/link";
 
-export default function Home() {
+export default function Home(props) {
 
   const [arr, setArr] = useState(
     [
@@ -24,9 +24,11 @@ export default function Home() {
     setArr([...arr, "This is Fifth Item"]);
   }
 
+  const { title } = props;
+
   return (
     <>
-      <h1>Home Page</h1>
+      <h1>{title}</h1>
       <h2>Our Customers</h2>
       <Link href="/customers">Go to Customers</Link>
       {/* <h2>Next JS APP</h2>
@@ -35,4 +37,13 @@ export default function Home() {
       <Button click={clickHandler}>Add</Button> */}
     </>
   )
+}
+
+
+export async function getStaticProps() {
+  return {
+    props: {
+      title: "Hello Page"
+    }
+  };
 }
