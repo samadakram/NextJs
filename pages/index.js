@@ -4,9 +4,6 @@
 // fix length of array called Tupples
 
 import { useState } from "react";
-import Button from "@/components/button/Button"
-import Greet from "@/components/greet/Greet"
-import List from "@/components/list/List"
 import Link from "next/link";
 
 export default function Home(props) {
